@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Globes Anti AdBlocker Remover",
+  "description": "Remove Globes anti adBlocker overlay on the website",
+  "version": "1.0",
+  "action": {
+   
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.globes.co.il/*"],
+      "js": ["scripts/content.js"]
+    }
+  ]
+}
